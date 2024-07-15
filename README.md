@@ -1,2 +1,3 @@
 # Book-Library
 A book library wich you van add multiple books for so many usage...
+Note: the project still not fully completed.
