@@ -194,3 +194,41 @@ footer li a .linkedin:hover{
 footer li a .github:hover{
     color: white;
 }
+
+@media screen and (max-width: 600px) {
+    .inputs{
+        grid-template-columns: auto auto;
+        font-size: smaller;
+        width: 50px;
+        height: 10%;
+        padding: 6px;
+    }
+    .btn-r, .btn-l{
+        font-size: 10px;
+
+  }
+  .books-shelf{
+    font-size: 16px;
+    padding: 6px;
+    grid-template-columns: repeat(3, 1fr);
+ }
+}
+
+@media screen and (max-width: 430px) {
+    .inputs{
+        grid-template-columns: auto auto;
+        font-size: smaller;
+        width: 50px;
+        height: 10%;
+        padding: 6px;
+    }
+    .btn-r, .btn-l{
+        font-size: 10px;
+
+  }
+  .books-shelf{
+    font-size: 16px;
+    padding: 4px;
+    grid-template-columns: repeat(2, 1fr);
+ }
+}
